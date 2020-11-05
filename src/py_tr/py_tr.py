@@ -332,9 +332,11 @@ class TradeRepublicApi:
         search_type = "neonSearch" if not aggregate else "neonSearchAggregations"
         return await self.subscribe({"type": search_type, "data": search_parameters})
 
-    async def search_derivative(self, underlying_isin, product_type):
+    # product_type: [knockOutProduct, vanillaWarrant]
+    # option_type: [call, put]
+    async def search_derivative(self, underlying_isin, product_type="vanillaWarrant", option_type=None):
         return await self.subscribe(
-            {"type": "derivatives", "underlying": underlying_isin, "productCategory": product_type}
+            {"type": "derivatives", "underlying": underlying_isin, "productCategory": product_type, "optionType": option_type}
         )
 
     async def order_overview(self):
