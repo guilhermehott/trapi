@@ -49,17 +49,17 @@ class TradeRepublicApi:
         self._locale = locale
         if not (phone_no and pin):
             try:
-                with open(f"{home}/.pytr/credentials", 'r') as f:
+                with open(f"{home}/pytr/credentials", 'r') as f:
                     lines = f.readlines()
                 self.phone_no = lines[0].strip()
                 self.pin = lines[1].strip()
             except FileNotFoundError:
-                raise ValueError(f"phone_no and pin must be specified explicitly or via {home}/.pytr/credentials")
+                raise ValueError(f"phone_no and pin must be specified explicitly or via {home}/pytr/credentials")
         else:
             self.phone_no = phone_no
             self.pin = pin
 
-        self.keyfile = keyfile if keyfile else f"{home}/.pytr/keyfile.pem"
+        self.keyfile = keyfile if keyfile else f"{home}/pytr/keyfile.pem"
         try:
             with open(self.keyfile, 'rb') as f:
                 self.sk = SigningKey.from_pem(f.read(), hashfunc=hashlib.sha512)
