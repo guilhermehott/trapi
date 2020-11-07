@@ -1,0 +1,2076 @@
+{
+  "tags": [
+    {
+      "type": "country",
+      "name": "Australien",
+      "id": "australia",
+      "icon": "https://assets.traderepublic.com/img/icon/flagAustralia.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Australien",
+      "id": "australia",
+      "icon": "https://assets.traderepublic.com/img/icon/flagAustralia.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "\u00d6sterreich",
+      "id": "austria",
+      "icon": "https://assets.traderepublic.com/img/icon/flagAustria.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "\u00d6sterreich",
+      "id": "austria",
+      "icon": "https://assets.traderepublic.com/img/icon/flagAustria.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Belgien",
+      "id": "belgium",
+      "icon": "https://assets.traderepublic.com/img/icon/flagBelgium.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Belgien",
+      "id": "belgium",
+      "icon": "https://assets.traderepublic.com/img/icon/flagBelgium.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Bermuda-Inseln",
+      "id": "bermuda",
+      "icon": "https://assets.traderepublic.com/img/icon/flagBermuda.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Bermuda-Inseln",
+      "id": "bermuda",
+      "icon": "https://assets.traderepublic.com/img/icon/flagBermuda.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Brasilien",
+      "id": "brazil",
+      "icon": "https://assets.traderepublic.com/img/icon/flagBrazil.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Brasilien",
+      "id": "brazil",
+      "icon": "https://assets.traderepublic.com/img/icon/flagBrazil.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Kanada",
+      "id": "canada",
+      "icon": "https://assets.traderepublic.com/img/icon/flagCanada.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Kanada",
+      "id": "canada",
+      "icon": "https://assets.traderepublic.com/img/icon/flagCanada.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Kaiman-Inseln",
+      "id": "cayman",
+      "icon": "https://assets.traderepublic.com/img/icon/flagCayman.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Kaiman-Inseln",
+      "id": "cayman",
+      "icon": "https://assets.traderepublic.com/img/icon/flagCayman.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "China",
+      "id": "china",
+      "icon": "https://assets.traderepublic.com/img/icon/flagChina.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "China",
+      "id": "china",
+      "icon": "https://assets.traderepublic.com/img/icon/flagChina.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Tschechien",
+      "id": "czech",
+      "icon": "https://assets.traderepublic.com/img/icon/flagCzech.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Tschechien",
+      "id": "czech",
+      "icon": "https://assets.traderepublic.com/img/icon/flagCzech.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "D\u00e4nemark",
+      "id": "denmark",
+      "icon": "https://assets.traderepublic.com/img/icon/flagDanemark.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "D\u00e4nemark",
+      "id": "denmark",
+      "icon": "https://assets.traderepublic.com/img/icon/flagDanemark.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Finnland",
+      "id": "finland",
+      "icon": "https://assets.traderepublic.com/img/icon/flagFinnland.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Finnland",
+      "id": "finland",
+      "icon": "https://assets.traderepublic.com/img/icon/flagFinnland.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Frankreich",
+      "id": "france",
+      "icon": "https://assets.traderepublic.com/img/icon/flagFrance.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Frankreich",
+      "id": "france",
+      "icon": "https://assets.traderepublic.com/img/icon/flagFrance.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Deutschland",
+      "id": "germany",
+      "icon": "https://assets.traderepublic.com/img/icon/flagGermany.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Deutschland",
+      "id": "germany",
+      "icon": "https://assets.traderepublic.com/img/icon/flagGermany.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Griechenland",
+      "id": "greece",
+      "icon": "https://assets.traderepublic.com/img/icon/flagGreece.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Griechenland",
+      "id": "greece",
+      "icon": "https://assets.traderepublic.com/img/icon/flagGreece.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Hongkong",
+      "id": "hongkong",
+      "icon": "https://assets.traderepublic.com/img/icon/flagHongKong.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Hongkong",
+      "id": "hongkong",
+      "icon": "https://assets.traderepublic.com/img/icon/flagHongKong.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Indien",
+      "id": "india",
+      "icon": "https://assets.traderepublic.com/img/icon/flagIndia.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Indien",
+      "id": "india",
+      "icon": "https://assets.traderepublic.com/img/icon/flagIndia.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Irland",
+      "id": "ireland",
+      "icon": "https://assets.traderepublic.com/img/icon/flagIreland.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Irland",
+      "id": "ireland",
+      "icon": "https://assets.traderepublic.com/img/icon/flagIreland.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Israel",
+      "id": "israel",
+      "icon": "https://assets.traderepublic.com/img/icon/flagIsrael.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Israel",
+      "id": "israel",
+      "icon": "https://assets.traderepublic.com/img/icon/flagIsrael.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Italien",
+      "id": "italy",
+      "icon": "https://assets.traderepublic.com/img/icon/flagItaly.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Italien",
+      "id": "italy",
+      "icon": "https://assets.traderepublic.com/img/icon/flagItaly.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Japan",
+      "id": "japan",
+      "icon": "https://assets.traderepublic.com/img/icon/flagJapan.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Japan",
+      "id": "japan",
+      "icon": "https://assets.traderepublic.com/img/icon/flagJapan.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Luxemburg",
+      "id": "luxemburg",
+      "icon": "https://assets.traderepublic.com/img/icon/flagLuxemburg.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Luxemburg",
+      "id": "luxemburg",
+      "icon": "https://assets.traderepublic.com/img/icon/flagLuxemburg.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Niederlande",
+      "id": "netherlands",
+      "icon": "https://assets.traderepublic.com/img/icon/flagNetherlands.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Niederlande",
+      "id": "netherlands",
+      "icon": "https://assets.traderepublic.com/img/icon/flagNetherlands.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Norwegen",
+      "id": "norway",
+      "icon": "https://assets.traderepublic.com/img/icon/flagNorway.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Norwegen",
+      "id": "norway",
+      "icon": "https://assets.traderepublic.com/img/icon/flagNorway.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Polen",
+      "id": "poland",
+      "icon": "https://assets.traderepublic.com/img/icon/flagPoland.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Polen",
+      "id": "poland",
+      "icon": "https://assets.traderepublic.com/img/icon/flagPoland.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Portugal",
+      "id": "portugal",
+      "icon": "https://assets.traderepublic.com/img/icon/flagPortugal.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Portugal",
+      "id": "portugal",
+      "icon": "https://assets.traderepublic.com/img/icon/flagPortugal.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Singapur",
+      "id": "singapur",
+      "icon": "https://assets.traderepublic.com/img/icon/flagSingapour.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Singapur",
+      "id": "singapur",
+      "icon": "https://assets.traderepublic.com/img/icon/flagSingapour.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Spanien",
+      "id": "spain",
+      "icon": "https://assets.traderepublic.com/img/icon/flagSpain.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Spanien",
+      "id": "spain",
+      "icon": "https://assets.traderepublic.com/img/icon/flagSpain.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Schweden",
+      "id": "sweden",
+      "icon": "https://assets.traderepublic.com/img/icon/flagSweden.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Schweden",
+      "id": "sweden",
+      "icon": "https://assets.traderepublic.com/img/icon/flagSweden.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Schweiz",
+      "id": "switzerland",
+      "icon": "https://assets.traderepublic.com/img/icon/flagSwitzerland.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Schweiz",
+      "id": "switzerland",
+      "icon": "https://assets.traderepublic.com/img/icon/flagSwitzerland.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "Taiwan",
+      "id": "taiwan",
+      "icon": "https://assets.traderepublic.com/img/icon/flagTaiwan.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "Taiwan",
+      "id": "taiwan",
+      "icon": "https://assets.traderepublic.com/img/icon/flagTaiwan.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "UK",
+      "id": "uk",
+      "icon": "https://assets.traderepublic.com/img/icon/flagGB.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "UK",
+      "id": "uk",
+      "icon": "https://assets.traderepublic.com/img/icon/flagGB.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "country",
+      "name": "USA",
+      "id": "usa",
+      "icon": "https://assets.traderepublic.com/img/icon/flagUSA.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "country",
+      "name": "USA",
+      "id": "usa",
+      "icon": "https://assets.traderepublic.com/img/icon/flagUSA.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Genussmittel",
+      "id": "alcoholtobacco",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorAlcoholTobacco.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Genussmittel",
+      "id": "alcoholtobacco",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorAlcoholTobacco.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Genussmittel",
+      "id": "alcoholtobacco",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorAlcoholTobacco.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Large/Mid/Small Caps",
+      "id": "all",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Large/Mid/Small Caps",
+      "id": "all",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Large/Mid/Small Caps",
+      "id": "all",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Auto",
+      "id": "automobiles",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorAuto.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Auto",
+      "id": "automobiles",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorAuto.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Auto",
+      "id": "automobiles",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorAuto.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Luftfahrt",
+      "id": "aviation",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorAviation.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Luftfahrt",
+      "id": "aviation",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorAviation.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Luftfahrt",
+      "id": "aviation",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorAviation.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Finanzen",
+      "id": "banking",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorBanking.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Finanzen",
+      "id": "banking",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorBanking.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Finanzen",
+      "id": "banking",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorBanking.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Biotech",
+      "id": "biotech",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorBiotech.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Biotech",
+      "id": "biotech",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorBiotech.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Biotech",
+      "id": "biotech",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorBiotech.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Chemie",
+      "id": "chemicals",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorChemicals.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Chemie",
+      "id": "chemicals",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorChemicals.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Chemie",
+      "id": "chemicals",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorChemicals.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Telekom",
+      "id": "communication",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorCommunication.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Telekom",
+      "id": "communication",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorCommunication.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Telekom",
+      "id": "communication",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorCommunication.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Computer",
+      "id": "computers",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorComputers.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Computer",
+      "id": "computers",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorComputers.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Computer",
+      "id": "computers",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorComputers.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Bauen",
+      "id": "constructions",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorConstructions.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Bauen",
+      "id": "constructions",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorConstructions.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Bauen",
+      "id": "constructions",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorConstructions.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Konsum",
+      "id": "consumer",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorConsumer.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Konsum",
+      "id": "consumer",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorConsumer.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Konsum",
+      "id": "consumer",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorConsumer.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Unternehmensanleihen",
+      "id": "corporatebonds",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Unternehmensanleihen",
+      "id": "corporatebonds",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Unternehmensanleihen",
+      "id": "corporatebonds",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Verbriefte Kredite",
+      "id": "credit",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Verbriefte Kredite",
+      "id": "credit",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Verbriefte Kredite",
+      "id": "credit",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Elektronik & Haushalt",
+      "id": "electrics",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorElectrics.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Elektronik & Haushalt",
+      "id": "electrics",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorElectrics.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Elektronik & Haushalt",
+      "id": "electrics",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorElectrics.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Halbleiter",
+      "id": "electronics",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorElectrics.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Halbleiter",
+      "id": "electronics",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorElectrics.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Halbleiter",
+      "id": "electronics",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorElectrics.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Energieversorgung",
+      "id": "energy",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorEnergy.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Energieversorgung",
+      "id": "energy",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorEnergy.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Energieversorgung",
+      "id": "energy",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorEnergy.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Umwelt",
+      "id": "environment",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorEnvironment.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Umwelt",
+      "id": "environment",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorEnvironment.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Umwelt",
+      "id": "environment",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorEnvironment.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Nahrung",
+      "id": "food",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorFood.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Nahrung",
+      "id": "food",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorFood.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Nahrung",
+      "id": "food",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorFood.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Forstwirtschaft",
+      "id": "forestry",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorForestry.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Forstwirtschaft",
+      "id": "forestry",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorForestry.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Forstwirtschaft",
+      "id": "forestry",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorForestry.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Staatsanleihen",
+      "id": "governmentbonds",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Staatsanleihen",
+      "id": "governmentbonds",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Staatsanleihen",
+      "id": "governmentbonds",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Gesundheit",
+      "id": "health",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorHealth.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Gesundheit",
+      "id": "health",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorHealth.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Gesundheit",
+      "id": "health",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorHealth.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Hochzinsanleihen",
+      "id": "highyield",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Hochzinsanleihen",
+      "id": "highyield",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Hochzinsanleihen",
+      "id": "highyield",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Beteiligung",
+      "id": "holdings",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorHoldings.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Beteiligung",
+      "id": "holdings",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorHoldings.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Beteiligung",
+      "id": "holdings",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorHoldings.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Inflationsgesch\u00fctzte Anleihen",
+      "id": "inflation",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Inflationsgesch\u00fctzte Anleihen",
+      "id": "inflation",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Inflationsgesch\u00fctzte Anleihen",
+      "id": "inflation",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Versicherung",
+      "id": "insurance",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorInsurance.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Versicherung",
+      "id": "insurance",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorInsurance.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Versicherung",
+      "id": "insurance",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorInsurance.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Large Caps",
+      "id": "largecap",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Large Caps",
+      "id": "largecap",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Large Caps",
+      "id": "largecap",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Large/Mid Caps",
+      "id": "largemidcap",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Large/Mid Caps",
+      "id": "largemidcap",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Large/Mid Caps",
+      "id": "largemidcap",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Industrie",
+      "id": "machinery",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorMachinery.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Industrie",
+      "id": "machinery",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorMachinery.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Industrie",
+      "id": "machinery",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorMachinery.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Rohstoffe",
+      "id": "materials",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorMaterials.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Rohstoffe",
+      "id": "materials",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorMaterials.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Rohstoffe",
+      "id": "materials",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorMaterials.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Mid Caps",
+      "id": "midcap",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Mid Caps",
+      "id": "midcap",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Mid Caps",
+      "id": "midcap",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Mid/Small Cap",
+      "id": "midsmallcap",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Mid/Small Cap",
+      "id": "midsmallcap",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Mid/Small Cap",
+      "id": "midsmallcap",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Mining",
+      "id": "mining",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorMining.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Mining",
+      "id": "mining",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorMining.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Mining",
+      "id": "mining",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorMining.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Mehrere Sektoren",
+      "id": "multiple",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Mehrere Sektoren",
+      "id": "multiple",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Mehrere Sektoren",
+      "id": "multiple",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "\u00d6l & Gas",
+      "id": "oil",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOil.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "\u00d6l & Gas",
+      "id": "oil",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOil.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "\u00d6l & Gas",
+      "id": "oil",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOil.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Sonstige",
+      "id": "others",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Sonstige",
+      "id": "others",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Sonstige",
+      "id": "others",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Pharma",
+      "id": "pharma",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorPharma.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Pharma",
+      "id": "pharma",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorPharma.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Pharma",
+      "id": "pharma",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorPharma.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Print",
+      "id": "print",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorPrint.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Print",
+      "id": "print",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorPrint.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Print",
+      "id": "print",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorPrint.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Immobilien",
+      "id": "realestate",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Immobilien",
+      "id": "realestate",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Immobilien",
+      "id": "realestate",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Dienstleistungen Diverse",
+      "id": "services",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorServices.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Dienstleistungen Diverse",
+      "id": "services",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorServices.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Dienstleistungen Diverse",
+      "id": "services",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorServices.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Einzelhandel",
+      "id": "shopping",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorShopping.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Einzelhandel",
+      "id": "shopping",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorShopping.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Einzelhandel",
+      "id": "shopping",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorShopping.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Small Caps",
+      "id": "smallcaps",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Small Caps",
+      "id": "smallcaps",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Small Caps",
+      "id": "smallcaps",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Software",
+      "id": "software",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorSoftware.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Software",
+      "id": "software",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorSoftware.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Software",
+      "id": "software",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorSoftware.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Kleidung",
+      "id": "textiles",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTextile.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Kleidung",
+      "id": "textiles",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTextile.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Kleidung",
+      "id": "textiles",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTextile.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Touristik",
+      "id": "tourism",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTourism.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Touristik",
+      "id": "tourism",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTourism.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Touristik",
+      "id": "tourism",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTourism.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Handelsfirmen Diverse",
+      "id": "trade",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Handelsfirmen Diverse",
+      "id": "trade",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Handelsfirmen Diverse",
+      "id": "trade",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "sector",
+      "name": "Transport",
+      "id": "transportation",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTransportation.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "sector",
+      "name": "Transport",
+      "id": "transportation",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTransportation.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "sector",
+      "name": "Transport",
+      "id": "transportation",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTransportation.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "ATX",
+      "id": "atx",
+      "icon": "https://assets.traderepublic.com/img/icon/index_AT.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "ATX",
+      "id": "atx",
+      "icon": "https://assets.traderepublic.com/img/icon/index_AT.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "ATX",
+      "id": "atx",
+      "icon": "https://assets.traderepublic.com/img/icon/index_AT.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "Anleihen",
+      "id": "bonds",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorBanking.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "Anleihen",
+      "id": "bonds",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorBanking.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "Anleihen",
+      "id": "bonds",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorBanking.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "CAC40",
+      "id": "cac40",
+      "icon": "https://assets.traderepublic.com/img/icon/index_FR.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "CAC40",
+      "id": "cac40",
+      "icon": "https://assets.traderepublic.com/img/icon/index_FR.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "CAC40",
+      "id": "cac40",
+      "icon": "https://assets.traderepublic.com/img/icon/index_FR.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "DAX",
+      "id": "dax",
+      "icon": "https://assets.traderepublic.com/img/icon/index_DE.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "DAX",
+      "id": "dax",
+      "icon": "https://assets.traderepublic.com/img/icon/index_DE.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "DAX",
+      "id": "dax",
+      "icon": "https://assets.traderepublic.com/img/icon/index_DE.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "DowJones",
+      "id": "dowjones",
+      "icon": "https://assets.traderepublic.com/img/icon/index_US.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "DowJones",
+      "id": "dowjones",
+      "icon": "https://assets.traderepublic.com/img/icon/index_US.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "DowJones",
+      "id": "dowjones",
+      "icon": "https://assets.traderepublic.com/img/icon/index_US.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "EUROSTOXX50",
+      "id": "eurostoxx50",
+      "icon": "https://assets.traderepublic.com/img/icon/index_EU.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "EUROSTOXX50",
+      "id": "eurostoxx50",
+      "icon": "https://assets.traderepublic.com/img/icon/index_EU.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "EUROSTOXX50",
+      "id": "eurostoxx50",
+      "icon": "https://assets.traderepublic.com/img/icon/index_EU.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "FTSE",
+      "id": "ftse",
+      "icon": "https://assets.traderepublic.com/img/icon/index_UK.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "FTSE",
+      "id": "ftse",
+      "icon": "https://assets.traderepublic.com/img/icon/index_UK.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "FTSE",
+      "id": "ftse",
+      "icon": "https://assets.traderepublic.com/img/icon/index_UK.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "Immobilien",
+      "id": "idxrealestate",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "Immobilien",
+      "id": "idxrealestate",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "Immobilien",
+      "id": "idxrealestate",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorRealEstate.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "MDAX",
+      "id": "mdax",
+      "icon": "https://assets.traderepublic.com/img/icon/index_DE.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "MDAX",
+      "id": "mdax",
+      "icon": "https://assets.traderepublic.com/img/icon/index_DE.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "MDAX",
+      "id": "mdax",
+      "icon": "https://assets.traderepublic.com/img/icon/index_DE.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "NIKKEI",
+      "id": "nikkei",
+      "icon": "https://assets.traderepublic.com/img/icon/index_JP.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "NIKKEI",
+      "id": "nikkei",
+      "icon": "https://assets.traderepublic.com/img/icon/index_JP.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "NIKKEI",
+      "id": "nikkei",
+      "icon": "https://assets.traderepublic.com/img/icon/index_JP.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "Rohstoffe",
+      "id": "resources",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorMining.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "Rohstoffe",
+      "id": "resources",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorMining.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "Rohstoffe",
+      "id": "resources",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorMining.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "SDAX",
+      "id": "sdax",
+      "icon": "https://assets.traderepublic.com/img/icon/index_DE.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "SDAX",
+      "id": "sdax",
+      "icon": "https://assets.traderepublic.com/img/icon/index_DE.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "SDAX",
+      "id": "sdax",
+      "icon": "https://assets.traderepublic.com/img/icon/index_DE.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "SMI",
+      "id": "smi",
+      "icon": "https://assets.traderepublic.com/img/icon/index_CH.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "SMI",
+      "id": "smi",
+      "icon": "https://assets.traderepublic.com/img/icon/index_CH.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "SMI",
+      "id": "smi",
+      "icon": "https://assets.traderepublic.com/img/icon/index_CH.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "SP500",
+      "id": "sp500",
+      "icon": "https://assets.traderepublic.com/img/icon/index_US.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "SP500",
+      "id": "sp500",
+      "icon": "https://assets.traderepublic.com/img/icon/index_US.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "SP500",
+      "id": "sp500",
+      "icon": "https://assets.traderepublic.com/img/icon/index_US.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "Aktien",
+      "id": "stocks",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "Aktien",
+      "id": "stocks",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "Aktien",
+      "id": "stocks",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "TecDAX",
+      "id": "techdax",
+      "icon": "https://assets.traderepublic.com/img/icon/index_DE.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "TecDAX",
+      "id": "techdax",
+      "icon": "https://assets.traderepublic.com/img/icon/index_DE.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "TecDAX",
+      "id": "techdax",
+      "icon": "https://assets.traderepublic.com/img/icon/index_DE.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "Gehebelt",
+      "id": "leveraged",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "Gehebelt",
+      "id": "leveraged",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "Gehebelt",
+      "id": "leveraged",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorTrade.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "index",
+      "name": "NASDAQ",
+      "id": "nasdaq",
+      "icon": "https://assets.traderepublic.com/img/icon/index_US.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "index",
+      "name": "NASDAQ",
+      "id": "nasdaq",
+      "icon": "https://assets.traderepublic.com/img/icon/index_US.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "index",
+      "name": "NASDAQ",
+      "id": "nasdaq",
+      "icon": "https://assets.traderepublic.com/img/icon/index_US.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Asien-Pazifik",
+      "id": "asiapacific",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Asien-Pazifik",
+      "id": "asiapacific",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Deutschland",
+      "id": "germany_region",
+      "icon": "https://assets.traderepublic.com/img/icon/index_DE.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Deutschland",
+      "id": "germany_region",
+      "icon": "https://assets.traderepublic.com/img/icon/index_DE.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Europa",
+      "id": "europe",
+      "icon": "https://assets.traderepublic.com/img/icon/index_EU.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Europa",
+      "id": "europe",
+      "icon": "https://assets.traderepublic.com/img/icon/index_EU.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Frankreich",
+      "id": "france_region",
+      "icon": "https://assets.traderepublic.com/img/icon/index_FR.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Frankreich",
+      "id": "france_region",
+      "icon": "https://assets.traderepublic.com/img/icon/index_FR.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Global",
+      "id": "global",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Global",
+      "id": "global",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Grossbritannien",
+      "id": "greatbritain_region",
+      "icon": "https://assets.traderepublic.com/img/icon/index_UK.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Grossbritannien",
+      "id": "greatbritain_region",
+      "icon": "https://assets.traderepublic.com/img/icon/index_UK.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Israel",
+      "id": "israel_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Israel",
+      "id": "israel_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Italien",
+      "id": "italy_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Italien",
+      "id": "italy_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Lateinamerika",
+      "id": "latinamerica",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Lateinamerika",
+      "id": "latinamerica",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Naher Osten und Afrika",
+      "id": "middleeastasia",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Naher Osten und Afrika",
+      "id": "middleeastasia",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Niederlande",
+      "id": "netherlands_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Niederlande",
+      "id": "netherlands_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Nordamerika",
+      "id": "northamerica",
+      "icon": "https://assets.traderepublic.com/img/icon/index_US.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Nordamerika",
+      "id": "northamerica",
+      "icon": "https://assets.traderepublic.com/img/icon/index_US.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "\u00d6sterreich",
+      "id": "austria_region",
+      "icon": "https://assets.traderepublic.com/img/icon/index_AT.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "\u00d6sterreich",
+      "id": "austria_region",
+      "icon": "https://assets.traderepublic.com/img/icon/index_AT.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Polen",
+      "id": "poland_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Polen",
+      "id": "poland_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Russland",
+      "id": "russia_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Russland",
+      "id": "russia_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Schweden",
+      "id": "sweden_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Schweden",
+      "id": "sweden_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Schweiz",
+      "id": "switzerland_region",
+      "icon": "https://assets.traderepublic.com/img/icon/index_CH.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Schweiz",
+      "id": "switzerland_region",
+      "icon": "https://assets.traderepublic.com/img/icon/index_CH.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "Spanien",
+      "id": "spain_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "Spanien",
+      "id": "spain_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "region",
+      "name": "T\u00fcrkei",
+      "id": "turkey_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "fund"
+    },
+    {
+      "type": "region",
+      "name": "T\u00fcrkei",
+      "id": "turkey_region",
+      "icon": "https://assets.traderepublic.com/img/icon/SectorOthers.png",
+      "instrumentType": "derivative"
+    },
+    {
+      "type": "attribute",
+      "name": "Sparplan",
+      "id": "savable",
+      "icon": "https://assets.traderepublic.com/img/icon/savable.png",
+      "instrumentType": "stock"
+    },
+    {
+      "type": "attribute",
+      "name": "Sparplan",
+      "id": "savable",
+      "icon": "https://assets.traderepublic.com/img/icon/savable.png",
+      "instrumentType": "fund"
+    }
+  ]
+}
