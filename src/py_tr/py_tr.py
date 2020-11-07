@@ -13,6 +13,15 @@ import websockets
 from ecdsa import NIST256p, SigningKey
 from ecdsa.util import sigencode_der
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler("debug.log"),
+        logging.StreamHandler()
+    ]
+)
+
 logger = logging.getLogger(__name__)
 home = pathlib.Path.home()
 
@@ -24,7 +33,7 @@ class TradeRepublicApi:
     _refresh_token = None
     _session_token = None
     _session_token_expires_at = None
-    _process_id = None
+    credentials_file = f"{home}/.pytr/credentials"
 
     _ws = None
     _lock = asyncio.Lock()
@@ -49,22 +58,37 @@ class TradeRepublicApi:
         self._locale = locale
         if not (phone_no and pin):
             try:
-                with open(f"{home}/pytr/credentials", 'r') as f:
+                with open(self.credentials_file, 'r') as f:
                     lines = f.readlines()
                 self.phone_no = lines[0].strip()
                 self.pin = lines[1].strip()
             except FileNotFoundError:
-                raise ValueError(f"phone_no and pin must be specified explicitly or via {home}/pytr/credentials")
+                raise ValueError(f"phone_no and pin must be specified explicitly or via {home}/.pytr/credentials")
         else:
             self.phone_no = phone_no
             self.pin = pin
 
-        self.keyfile = keyfile if keyfile else f"{home}/pytr/keyfile.pem"
+        self.keyfile = keyfile if keyfile else f"{home}/.pytr/keyfile.pem"
         try:
             with open(self.keyfile, 'rb') as f:
                 self.sk = SigningKey.from_pem(f.read(), hashfunc=hashlib.sha512)
         except FileNotFoundError:
             pass
+
+    def interactive_device_reset(self):
+        self.sk = SigningKey.generate(curve=NIST256p, hashfunc=hashlib.sha512)
+
+        r = requests.post(f"{self._host}/api/v1/auth/account/reset/device",
+                          json={"phoneNumber": self.phone_no, "pin": self.pin},
+                          headers=self._default_headers)
+
+        if r.status_code == 200:
+            process_id = r.json()['processId']
+        else:
+            self.print_error_response(r)
+
+        token = input("Please enter the sms code: ")
+        self.pair_device(process_id, token)
 
     def initiate_device_reset(self):
         self.sk = SigningKey.generate(curve=NIST256p, hashfunc=hashlib.sha512)
@@ -73,28 +97,55 @@ class TradeRepublicApi:
                           json={"phoneNumber": self.phone_no, "pin": self.pin},
                           headers=self._default_headers)
 
-        self._process_id = r.json()['processId']
+        if r.status_code == 200:
+            with open(self.credentials_file, 'a') as f:
+                f.write("\n")
+                f.write(r.json()['processId'])
+                logger.info("processId %s", r.json()['processId'])
+        else:
+            self.print_error_response(r)
 
     def complete_device_reset(self, token):
-        if not self._process_id and not self.sk:
-            raise ValueError("Initiate Device Reset first.")
+        with open(self.credentials_file, 'r') as f:
+            lines = f.readlines()
+        process_id = lines[len(lines)-1].strip()  # get the latest process_id
 
+        if not process_id and not self.sk:
+            raise ValueError("Initiate Device Reset first.")
+        else:
+            self.pair_device(process_id, token)
+
+    def pair_device(self, process_id, token):
         pubkey_bytes = self.sk.get_verifying_key().to_string('uncompressed')
         pubkey_string = base64.b64encode(pubkey_bytes).decode('ascii')
 
-        r = requests.post(f"{self._host}/api/v1/auth/account/reset/device/{self._process_id}/key",
+        r = requests.post(f"{self._host}/api/v1/auth/account/reset/device/{process_id}/key",
                           json={"code": token, "deviceKey": pubkey_string},
                           headers=self._default_headers)
         if r.status_code == 200:
             with open(self.keyfile, 'wb') as f:
                 f.write(self.sk.to_pem())
+                logger.info("writing to pem file")
+                logger.info(self.sk.to_pem())
+        else:
+            self.print_error_response(r)
+
+    @staticmethod
+    def print_error_response(r):
+        logger.error("%s %s", r.request.method, r.request.url)
+        logger.error("%s %s", r.status_code, r.json())
 
     def login(self):
-        logger.info("Logging in")
+        logging.info("Logging in")
         r = self._sign_request("/api/v1/auth/login",
                                payload={"phoneNumber": self.phone_no, "pin": self.pin})
-        self._refresh_token = r.json()['refreshToken']
-        self.session_token = r.json()['sessionToken']
+        if r.status_code == 200:
+            self._refresh_token = r.json()['refreshToken']
+            self.session_token = r.json()['sessionToken']
+        else:
+            # the device lost the session, must be reseted
+            self.interactive_device_reset()
+            self.login()
 
     def refresh_access_token(self):
         logger.info("Refreshing access token")
