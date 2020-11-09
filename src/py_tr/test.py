@@ -17,8 +17,8 @@ async def my_loop():
     underlying_isin = "US0378331005"
     # await tr.search_derivative(underlying_isin)
     # await tr.search("AAPL", asset_type="stock")
-    # await tr.ticker("DE000TT17QS7", exchange="LSX")
-    await tr.instrument_details("DE000TT17QS7")
+    await tr.ticker("DE000TT17QS7", exchange="TUB")
+    # await tr.instrument_details("DE000TT17QS7")
     # await tr.instrument_suitability("DE000TT0GQ58")
     # await tr.derivative_details("DE000TT0GQ58")
     # await tr.performance("DE000TT17QS7")
