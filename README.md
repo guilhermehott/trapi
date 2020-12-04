@@ -193,3 +193,35 @@ Payouts need two-factor-authentication: the `payout()` call will respond with a 
 * **start_date_value** `int` either the day of month (0-30), or the weekday (0-6) on which to execute the savings plan
 
 Allowed values for search filters can be found using the `search_tags()` call.
+
+
+### Payloads Samples
+
+Ticker
+
+```
+{'ask': {'price': 1.24, 'size': 2200, 'time': 1607002479195},
+ 'bid': {'price': 0.64, 'size': 2200, 'time': 1607002479195},
+ 'delta': -0.0121,
+ 'last': {'price': 0.64, 'size': 2200, 'time': 1607002479195},
+ 'leverage': None,
+ 'open': {'price': 0.72, 'size': 0, 'time': 1606978596123},
+ 'pre': {'price': 0.85, 'size': 0, 'time': 1606942679446},
+ 'qualityId': 'realtime'}
+```
+
+Optionsschein
+
+```
+{'barrier': None,
+ 'currency': 'USD',
+ 'delta': -0.0033,
+ 'expiry': '2021-06-16',
+ 'factor': None,
+ 'isin': 'DE000TR97Q79',
+ 'leverage': None,
+ 'optionType': 'put',
+ 'productCategoryName': 'Optionsschein',
+ 'size': 0.5,
+ 'strike': 77}
+```
