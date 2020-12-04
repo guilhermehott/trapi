@@ -141,4 +141,4 @@ cython_debug/
 .idea/**
 
 # tmp files
-src/tmp/
+src/tmp/**
