@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="TradeRepublicApi",
-    version="1.0.2",
+    version="1.0.3",
     author="Nils Borrmann",
     author_email="n.borrmann@googlemail.com",
     license='MIT',
