@@ -2,9 +2,12 @@ import asyncio
 import pprint
 import json
 import logging
+import sys
+sys.path.append("../py_tr")
 from py_tr import TradeRepublicApi
 
 tr = TradeRepublicApi()
+# tr.interactive_device_reset() # run this to create the keyfile.pem
 
 
 def save_to_file(file, response):
