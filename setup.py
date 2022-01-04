@@ -4,15 +4,15 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="TradeRepublicApi",
+    name="trapi",
     version="1.0.3",
-    author="Nils Borrmann",
-    author_email="n.borrmann@googlemail.com",
+    author="Guilherme Damaceno Hott",
+    author_email="guilhermehott@gmail.com",
     license='MIT',
     description="Unoffical Python Interface for the Trade Republic API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/guilhermehott/TradeRepublicApi",
+    url="https://github.com/guilhermehott/trapi",
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
