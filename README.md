@@ -1,4 +1,4 @@
-# Trade Republic API
+# trapi - Trade Republic API
 
 This is a library for the private API of the Trade Republic online brokerage. I am not affiliated with Trade Republic Bank GmbH.
 
