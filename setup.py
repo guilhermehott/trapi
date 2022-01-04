@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="py_tr",
+    name="TradeRepublicApi",
     version="1.0.2",
     author="Nils Borrmann",
     author_email="n.borrmann@googlemail.com",
@@ -12,7 +12,7 @@ setuptools.setup(
     description="Unoffical Python Interface for the Trade Republic API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/nborrmann/pytr",
+    url="https://github.com/guilhermehott/TradeRepublicApi",
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
