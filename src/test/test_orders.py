@@ -2,7 +2,7 @@ import asyncio
 import pprint
 import json
 import logging
-from py_tr import TradeRepublicApi
+from trapi import TradeRepublicApi
 
 tr = TradeRepublicApi()
 

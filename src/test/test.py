@@ -3,8 +3,8 @@ import pprint
 import json
 import logging
 import sys
-sys.path.append("src/py_tr")
-from py_tr import TradeRepublicApi
+sys.path.append("src/trapi")
+from trapi import TradeRepublicApi
 
 tr = TradeRepublicApi()
 # tr.interactive_device_reset() # run this to create the keyfile.pem
@@ -35,7 +35,7 @@ async def my_loop():
         logging.info(subscription)
         # logging.info(response)
         pprint.pprint(response)
-        save_to_file("src/tmp/history-DE000TT1Q936.json", response)
+        save_to_file("src/test/tmp/history-DE000TT1Q936.json", response)
         # with open('warrants_'+underlying_isin+'.json', 'w') as outfile:
         #     json.dump(response, outfile)
 
