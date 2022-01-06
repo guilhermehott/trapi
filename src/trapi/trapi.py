@@ -108,10 +108,17 @@ class TradeRepublicApi:
                           headers=self._default_headers)
 
         if r.status_code == 200:
+            # save processId
             with open(self.credentials_file, 'a') as f:
                 f.write("\n")
                 f.write(r.json()['processId'])
                 logger.info("processId %s", r.json()['processId'])
+            
+            # save signature key
+            with open(self.keyfile, 'wb') as f:
+                f.write(self.sk.to_pem())
+                logger.info("writing to pem file")
+                logger.info(self.sk.to_pem())
         else:
             self.print_error_response(r)
             raise Exception(r.json())
@@ -121,7 +128,10 @@ class TradeRepublicApi:
             lines = f.readlines()
         process_id = lines[len(lines)-1].strip()  # get the latest process_id
 
-        if not process_id and not self.sk:
+        with open(self.keyfile, 'rb') as f:
+            self.sk = SigningKey.from_pem(f.read(), hashfunc=hashlib.sha512)
+
+        if not process_id or not self.sk:
             raise ValueError("Initiate Device Reset first.")
         else:
             self.pair_device(process_id, token)
@@ -136,10 +146,6 @@ class TradeRepublicApi:
                           headers=self._default_headers)
         if r.status_code == 200:
             logger.info("request ok")
-            with open(self.keyfile, 'wb') as f:
-                f.write(self.sk.to_pem())
-                logger.info("writing to pem file")
-                logger.info(self.sk.to_pem())
         else:
             self.print_error_response(r)
             raise Exception(r.json())
