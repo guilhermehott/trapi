@@ -3,8 +3,6 @@ import base64
 import hashlib
 import json
 import logging
-import os
-import pathlib
 import time
 import urllib.parse
 import uuid
@@ -24,7 +22,7 @@ logging.basicConfig(
 )
 
 logger = logging.getLogger(__name__)
-home = pathlib.Path.home()
+# home = pathlib.Path.home()
 
 # Necessary when this lib is called from a flask endpoint because it's not on the main thread.
 def get_or_create_eventloop():
@@ -43,7 +41,7 @@ class TradeRepublicApi:
     _refresh_token = None
     _session_token = None
     _session_token_expires_at = None
-    credentials_file = f"{home}/.pytr/credentials"
+    credentials_file = "credentials"
 
     _ws = None
 
@@ -75,12 +73,12 @@ class TradeRepublicApi:
                 self.phone_no = lines[0].strip()
                 self.pin = lines[1].strip()
             except FileNotFoundError:
-                raise ValueError(f"phone_no and pin must be specified explicitly or via {home}/.pytr/credentials")
+                raise ValueError(f"phone_no and pin must be specified explicitly or via credentials file")
         else:
             self.phone_no = phone_no
             self.pin = pin
 
-        self.keyfile = keyfile if keyfile else f"{home}/.pytr/keyfile.pem"
+        self.keyfile = keyfile if keyfile else "keyfile.pem"
         try:
             with open(self.keyfile, 'rb') as f:
                 self.sk = SigningKey.from_pem(f.read(), hashfunc=hashlib.sha512)
