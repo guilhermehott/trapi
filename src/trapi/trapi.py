@@ -3,6 +3,7 @@ import base64
 import hashlib
 import json
 import logging
+import os
 import pathlib
 import time
 import urllib.parse
@@ -25,6 +26,15 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 home = pathlib.Path.home()
 
+# Necessary when this lib is called from a flask endpoint because it's not on the main thread.
+def get_or_create_eventloop():
+    try:
+        return asyncio.get_event_loop()
+    except RuntimeError as ex:
+        if "There is no current event loop in thread" in str(ex):
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+            return asyncio.get_event_loop()
 
 class TradeRepublicApi:
     _default_headers = {'User-Agent': 'TradeRepublic/Android 24/App Version 1.1.2875'}
@@ -36,6 +46,8 @@ class TradeRepublicApi:
     credentials_file = f"{home}/.pytr/credentials"
 
     _ws = None
+
+    get_or_create_eventloop()
     _lock = asyncio.Lock()
     _subscription_id_counter = 1
     _previous_responses = {}
@@ -104,6 +116,7 @@ class TradeRepublicApi:
                 logger.info("processId %s", r.json()['processId'])
         else:
             self.print_error_response(r)
+            raise Exception(r.json())
 
     def complete_device_reset(self, token):
         with open(self.credentials_file, 'r') as f:
@@ -127,8 +140,10 @@ class TradeRepublicApi:
                 f.write(self.sk.to_pem())
                 logger.info("writing to pem file")
                 logger.info(self.sk.to_pem())
+            return 'Device paired'
         else:
             self.print_error_response(r)
+            raise Exception(r.json())
 
     @staticmethod
     def print_error_response(r):
@@ -287,7 +302,7 @@ class TradeRepublicApi:
             await self.unsubscribe(subscription_id)
 
     def run_blocking(self, fut, timeout=5.0):
-        return asyncio.get_event_loop().run_until_complete(self._receive_one(fut, timeout=timeout))
+        return get_or_create_eventloop().run_until_complete(self._receive_one(fut, timeout=timeout))
 
     async def portfolio(self):
         return await self.subscribe({"type": "portfolio"})
