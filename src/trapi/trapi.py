@@ -127,6 +127,7 @@ class TradeRepublicApi:
             self.pair_device(process_id, token)
 
     def pair_device(self, process_id, token):
+        logger.info("pairing device")
         pubkey_bytes = self.sk.get_verifying_key().to_string('uncompressed')
         pubkey_string = base64.b64encode(pubkey_bytes).decode('ascii')
 
@@ -134,11 +135,11 @@ class TradeRepublicApi:
                           json={"code": token, "deviceKey": pubkey_string},
                           headers=self._default_headers)
         if r.status_code == 200:
+            logger.info("request ok")
             with open(self.keyfile, 'wb') as f:
                 f.write(self.sk.to_pem())
                 logger.info("writing to pem file")
                 logger.info(self.sk.to_pem())
-            return 'Device paired'
         else:
             self.print_error_response(r)
             raise Exception(r.json())
