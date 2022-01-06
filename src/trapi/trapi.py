@@ -144,9 +144,8 @@ class TradeRepublicApi:
         r = requests.post(f"{self._host}/api/v1/auth/account/reset/device/{process_id}/key",
                           json={"code": token, "deviceKey": pubkey_string},
                           headers=self._default_headers)
-        if r.status_code == 200:
-            logger.info("request ok")
-        else:
+        
+        if r.status_code != 200:
             self.print_error_response(r)
             raise Exception(r.json())
 
