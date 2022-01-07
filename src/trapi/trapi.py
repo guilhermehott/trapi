@@ -82,7 +82,8 @@ class TradeRepublicApi:
         try:
             with open(self.keyfile, 'rb') as f:
                 self.sk = SigningKey.from_pem(f.read(), hashfunc=hashlib.sha512)
-        except FileNotFoundError:
+        except FileNotFoundError as ex:
+            logger.warn('File not found %s', self.keyfile)
             pass
 
     def interactive_device_reset(self):
@@ -161,10 +162,10 @@ class TradeRepublicApi:
         if r.status_code == 200:
             self._refresh_token = r.json()['refreshToken']
             self.session_token = r.json()['sessionToken']
-        else:
-            # the device lost the session, must be reseted
-            self.interactive_device_reset()
-            self.login()
+        # else:
+        #     # the device lost the session, must be reseted
+        #     self.interactive_device_reset()
+        #     self.login()
 
     def refresh_access_token(self):
         logger.info("Refreshing access token")
